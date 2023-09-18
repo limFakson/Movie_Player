@@ -128,7 +128,7 @@ input:active{
     width: 100%;
 }
 .bookmark span img{
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
 }
 .movie-preview p{
     margin-top: 0.8rem;
@@ -179,7 +179,7 @@ section{
 .movie-card{
     border: 1px solid #000;
     width: 18.6rem;
-    height: 35rem;
+    height: 36rem;
 }
 .movie{
     width: 18.4rem;
@@ -191,19 +191,28 @@ section{
     height: 100%;
     object-fit: cover;
 }
-.movie-card span{
-    margin-bottom: 1rem;
+.location-date{
+    margin: 1.2rem 0;
 }
 .location-date p{
     font-size: 0.83rem;
     color: var(--sec-color);
     font-weight: 500;
 }
+.movie-name{
+    margin: 1rem 0;
+}
 .movie-name h3{
     font-size: 1.3rem;
     color: var(--pri-color);
     font-weight: 700;
     margin-bottom: 1rem;
+}
+.movie-card .bookmark{
+    margin: 0.7rem 0;
+}
+.movie-genre{
+    margin: 1rem 0;
 }
 .movie-genre p{
     font-size: 0.83rem;
