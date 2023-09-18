@@ -126,6 +126,8 @@ input:active{
     display: flex;
     height: 100%;
     width: 100%;
+    color: var(--pri-color);
+    font-weight: 500;
 }
 .bookmark span img{
     margin-right: 0.5rem;
@@ -169,21 +171,27 @@ section{
 .movie-hotlist span{
     display: flex;
     justify-content: end;
+    color: var(--but-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.movie-hotlist span p{
+    
 }
 .movie-collection{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 1.2rem;
+    gap: 2rem;
+    margin: 3rem 0;
 }
 .movie-card{
-    border: 1px solid #000;
-    width: 18.6rem;
-    height: 36rem;
+    width: 17.6rem;
+    height: 39rem;
 }
 .movie{
-    width: 18.4rem;
-    height: 28rem;
+    width: 17.5rem;
+    height: 26rem;
     margin-bottom: 0.7rem;
 }
 .movie img{
@@ -210,6 +218,10 @@ section{
 }
 .movie-card .bookmark{
     margin: 0.7rem 0;
+    justify-content: space-between;
+}
+.movie-card .bookmark #tomato{
+    display: contents;
 }
 .movie-genre{
     margin: 1rem 0;
