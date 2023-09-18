@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
     --bocolor : #fff;
-    --primary-color : ;
-    --sec-color: ;
+    --grey :#D1D5DB;
+    --pri-color: #111827;
+    --sec-color: #9CA3AF;
+    --but-color: #be123c;
+    font-family: DM-sans, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +16,7 @@ header{
     width: 100%;
     height: 37rem;
 }
-.movie-baner{
+.movie-banner{
     background-image: url(png/john-wick.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,4 +27,86 @@ nav{
     display: flex;
     width: 100%;
     background-color: transparent;
+    padding: 1rem 3rem;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 25rem;
+    align-items: center;
+}
+.tv-icon{
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.tv-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#logotext{
+    margin-left: 8px;
+}
+#logotext h2{
+    font-size: 1.2rem;
+    color: var(--bocolor);
+}
+input{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+}
+input:active{
+    border: transparent;
+
+}
+
+.search-box{
+    border: 2px solid var(--grey);
+    border-radius: 6px;
+    display: flex;
+    width: 32.7125rem;
+    height: 2.3rem;
+    padding-right: 8px;
+    justify-content: space-between;
+    align-items: center;  
+    align-self: center;
+}
+
+.menu{
+    display: flex;
+    width: 34rem;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu h3{
+    color: var(--bocolor);
+    font-size: 1rem;
+}
+
+.menu span{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--but-color);
+    margin-left: 1rem;
+}
+
+.movie-preview{
+    width: 20rem;
+    color: var(--bocolor);
+    margin-top: 4.2rem;
+    margin-left: 2rem;
+}
+.movie-preview h1{
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+.movie-preview .bookmark{
+    margin: 0.5rem 0;
 }
