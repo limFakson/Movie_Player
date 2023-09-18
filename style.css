@@ -5,7 +5,7 @@
     --pri-color: #111827;
     --sec-color: #9CA3AF;
     --but-color: #be123c;
-    font-family: DM-sans, sans-serif;
+    font-family: DM sans;
     margin: 0;
     padding: 0;
 }
@@ -36,8 +36,8 @@ nav{
     align-items: center;
 }
 .tv-icon{
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 2.7rem;
+    height: 2.7rem;
 }
 
 .tv-icon img{
@@ -95,18 +95,118 @@ input:active{
     border-radius: 50%;
     background-color: var(--but-color);
     margin-left: 1rem;
+    
+}
+.menu span svg{
+    object-fit: contain;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 .movie-preview{
-    width: 20rem;
+    width: 18rem;
     color: var(--bocolor);
-    margin-top: 4.2rem;
+    margin-top: 7rem;
     margin-left: 2rem;
 }
 .movie-preview h1{
-    line-height: 1.5rem;
+    line-height: 2.4rem;
     margin: 1rem 0;
+    font-size: 2.6rem;
 }
-.movie-preview .bookmark{
-    margin: 0.5rem 0;
+.bookmark{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1rem;
+}
+.bookmark span{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.bookmark span img{
+    margin-right: 0.6rem;
+}
+.movie-preview p{
+    margin-top: 0.8rem;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    background-color: var(--but-color);
+    width: 8rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    color: var(--bocolor);
+}
+button svg {
+    padding-right: 5px;
+}
+section{
+    margin: 3rem;
+    background-color: transparent;
+}
+.movie-hotlist{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    justify-content: space-between;
+}
+.movie-hotlist h2{
+    justify-self: flex-start;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.movie-hotlist span{
+    display: flex;
+    justify-content: end;
+}
+.movie-collection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.2rem;
+}
+.movie-card{
+    border: 1px solid #000;
+    width: 18.6rem;
+    height: 35rem;
+}
+.movie{
+    width: 18.4rem;
+    height: 28rem;
+    margin-bottom: 0.7rem;
+}
+.movie img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movie-card span{
+    margin-bottom: 1rem;
+}
+.location-date p{
+    font-size: 0.83rem;
+    color: var(--sec-color);
+    font-weight: 500;
+}
+.movie-name h3{
+    font-size: 1.3rem;
+    color: var(--pri-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.movie-genre p{
+    font-size: 0.83rem;
+    color: var(--sec-color);
+    font-weight: 500;
 }
