@@ -6,7 +6,8 @@
     <title>MovieBox</title>
 
     <!--External Links -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
@@ -43,6 +44,7 @@
                 </div>
             </nav>
             
+          <div class="movie-banner-collection">
             <div class="movie-preview">
                 <h1>John Wick 3 : Parabellum</h1>
                 <div class="bookmark">
@@ -59,11 +61,35 @@
                     and with a 14 million price tag on his head, 
                     he is a target of every hitman men and women everywhere</p>
                     <span id="trailer">
-                        <button class="play"> <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM9.5547 7.16795C9.24784 6.96338 8.8533 6.94431 8.52814 7.11833C8.20298 7.29235 8 7.63121 8 8V12C8 12.3688 8.20298 12.7077 8.52814 12.8817C8.8533 13.0557 9.24784 13.0366 9.5547 12.8321L12.5547 10.8321C12.8329 10.6466 13 10.3344 13 10C13 9.66565 12.8329 9.35342 12.5547 9.16795L9.5547 7.16795Z" fill="white"/>
-                            </svg> <i></i>Watch Trailer</button>
+                            </svg>
+                        <button class="play"> <i></i>Watch Trailer</button>
                     </span>
             </div>
+            <div class="banner-carousel">
+                <span class="nnumber-change one">
+                    <input type="checkbox" name="1" id="checkbox-one">
+                    <label for="checkbox" id="label-one">1</label>
+                </span>
+                <span class="nnumber-change two">
+                    <input type="checkbox" name="2" id="checkbox-two">
+                    <label for="checkbox" id="label-two">2</label>
+                </span>
+                <span class="nnumber-change three">
+                    <input type="checkbox" name="-3" id="checkbox-three">
+                    <label for="checkbox" id="label-three">-3</label>
+                </span>
+                <span class="nnumber-change four">
+                    <input type="checkbox" name="4" id="checkbox-four">
+                    <label for="checkbox" id="label-four">4</label>
+                </span>
+                <span class="nnumber-change five">
+                    <input type="checkbox" name="5" id="checkbox-five">
+                    <label for="checkbox" id="label-five">5</label>
+                </span>
+            </div>
+          </div>
         </div>
     </header>
    
@@ -369,5 +395,31 @@
             </span></div>
         </div>
     </section>
+    <footer>
+        <div class="last-sec">
+            <div class="icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </div>
+            <div class="prefare">
+                <span>
+                    <h3>Conditions of Use</h3>
+                </span>
+                <span>
+                    <h3>Privacy & Policy</h3>
+                </span>
+                <span>
+                    <h3>Press Room</h3>
+                </span>
+            </div>
+            <div class="credits">
+                <p>© 2023 MovieBox Joshua limFakson</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="player.js"></script>
 </body>
 </html>

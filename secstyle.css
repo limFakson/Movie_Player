@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    --bocolor : #fff;
+    --grey :#D1D5DB;
+    --pri-color: #111827;
+    --sec-color: #9CA3AF;
+    --but-color: #be123c;
+    font-family: "DM sans";
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar{
+    width: 11rem;
+    height: 100vh;
+    background-color: var(--bocolor);
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+    border-right: 1px solid var(--grey);
+    border-radius: 0 1.7rem 1.7rem 0;
+    padding-top: 2.5rem;
+}
+
+.seclogo{
+    padding-left: 1rem;
+    margin: 0.6rem 0;
+    margin-bottom: 3rem;
+}
+
+#logotext #logo{
+    margin-left: 0.4rem;
+    color: var(--pri-color);
+}
+.side-menu{
+    display: block;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--but-color);
+    height: 4rem;
+    gap: 1rem;
+    padding-left: 2.2rem;
+}
+.bar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+.bar-text{
+    width: 9rem;
+    height: 10.4rem;
+    border: 1px solid var(--but-color);
+    border-radius: 8px;
+    /* background-color: var(--but-color); */
+    padding: 0 0.5rem;
+    padding-top: 1rem;
+}
+.bar-text h3{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.bar-text p{
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+.bar-text .qiuz-button{
+    width: 8rem;
+    height: 1rem;
+    border-radius: 8px;
+}
+.qiuz-button button{
+    
+}
