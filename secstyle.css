@@ -11,7 +11,7 @@
 }
 
 .side-bar{
-    width: 11rem;
+    width: 10.76rem;
     height: 100vh;
     background-color: var(--bocolor);
     box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
@@ -21,17 +21,18 @@
 }
 
 .seclogo{
-    padding-left: 1rem;
+    padding-left: 0.95rem;
     margin: 0.6rem 0;
     margin-bottom: 3rem;
 }
 
 #logotext #logo{
-    margin-left: 0.4rem;
+    margin-left: 0.365rem;
     color: var(--pri-color);
 }
 .side-menu{
     display: block;
+    margin-top: 1rem;
 }
 .menu-item{
     display: flex;
@@ -48,8 +49,8 @@
     margin-top: 1.6rem;
 }
 .bar-text{
-    width: 9rem;
-    height: 10.4rem;
+    width: 7.654rem;
+    height: 10rem;
     border: 1px solid var(--but-color);
     border-radius: 8px;
     /* background-color: var(--but-color); */
