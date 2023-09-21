@@ -5,11 +5,16 @@
     --pri-color: #111827;
     --sec-color: #9CA3AF;
     --but-color: #be123c;
+    --secbut-color: rgba(190, 18, 60, 0.2);
     font-family: DM sans;
     margin: 0;
     padding: 0;
 }
-
+.playlet{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+}
 .side-bar{
     width: 10.76rem;
     height: 100vh;
@@ -39,11 +44,16 @@
 .menu-item{
     display: flex;
     align-items: center;
-    border: 1px solid var(--but-color);
     height: 4rem;
     gap: 1rem;
     padding-left: 2.2rem;
     cursor: pointer;
+}
+.menu-item:hover{
+    background-color: var(--secbut-color);
+}
+.menu-item:active{
+    background-color: var(--secbut-color);
 }
 .menu-item-img{
     width: 1.3rem;
@@ -59,6 +69,13 @@
     font-weight: 600;
     color: var(--sec-color);
 }
+.active{
+    border-right: 3px solid var(--but-color);
+    background-color: var(--secbut-color);
+}
+.active p{
+    color:  var(--but-color);
+}
 .bar{
     display: grid;
     justify-content: center;
@@ -67,28 +84,39 @@
 }
 .bar-text{
     width: 7.654rem;
-    height: 10rem;
+    height: 10.56rem;
     border: 1px solid var(--but-color);
     border-radius: 8px;
-    /* background-color: var(--but-color); */
+    background-color: #F8E7EB;
     padding: 0 0.5rem;
-    padding-top: 1rem;
+    padding-top: 2.3rem;
 }
 .bar-text h3{
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--pri-color);
 }
 .bar-text p{
     font-size: 0.6rem;
-    font-weight: 400;
+    font-weight: 500;
+    color: var(--sec-color);
+    margin-top: 0.5rem;
 }
-.bar-text .qiuz-button{
-    width: 8rem;
-    height: 1rem;
-    border-radius: 8px;
+.qiuz-button{
+    display: grid;
+    justify-content: center;
+    margin-top: 0.5rem;
 }
 .qiuz-button button{
-    
+    width: 5rem;
+    height: 1.4rem;
+    border-radius: 9px;
+    background-color: var(--secbut-color);
+    border: none;
+    color: var(--but-color);
+    font-size: 0.6rem;
+    font-weight: 700;
+    cursor: pointer;
 }
 .logout{
     display: flex;
@@ -109,4 +137,38 @@
     font-size: 0.867rem;
     font-weight: 600;
     color: var(--sec-color);
+}
+.main-page{
+    width: 70rem;
+    margin-right: 1.8rem;
+    margin-top: 1.76rem;
+}
+.movie-play{
+    width:100%;
+    height: 18rem;
+    background-image: url(png/Playing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.play-logo{
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    background-color: var(--grey);
+    width: 10rem;
+}
+.movie-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+.preview{
+    width: 50rem;
+}
+.movie-title{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
 }
