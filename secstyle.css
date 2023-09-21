@@ -163,6 +163,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.3rem;
+    justify-content: space-between;
 }
 .preview{
     width: 50rem;
@@ -180,10 +181,33 @@
     margin-top: 1.34rem;
 }
 .genre{
-    background-color: var(--secbut-color);
-    border-radius: 8px;
-    height: 2rem;
+    color: var(--but-color);
+    font-size: 0.88rem;
+    font-weight: 600;
+    border: 1px solid var(--secbut-color);
+    border-radius: 10px;
+    height: 1.45rem;
     width: 5rem;
     text-align: center;
-    margin-top: 1.34rem
+    margin-top: 1.5rem
+}
+.others{
+    display: flex;
+    margin-top: 1rem;
+    gap: 0.8rem;
+}
+.rating{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.3rem;
+}
+.rating img{
+    width: 100%;
+    height: 100%;
+}
+.others span{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
 }

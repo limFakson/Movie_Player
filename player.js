@@ -64,4 +64,4 @@ window.addEventListener('load', ()=>{
 
 Moviecard.addEventListener('click', ()=>{
     window.location.href = "playlet.html"
-})
+});

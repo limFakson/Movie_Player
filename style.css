@@ -218,6 +218,7 @@ section{
 .movie-card{
     width: 17.6rem;
     height: 39rem;
+    cursor: pointer;
 }
 .movie{
     width: 17.5rem;
