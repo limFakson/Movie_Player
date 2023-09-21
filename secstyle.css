@@ -172,3 +172,18 @@
     justify-content: flex-start;
     gap: 1rem;
 }
+.movie-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.34rem;
+}
+.genre{
+    background-color: var(--secbut-color);
+    border-radius: 8px;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    margin-top: 1.34rem
+}
