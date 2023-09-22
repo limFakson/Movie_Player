@@ -147,7 +147,7 @@
 .main-page{
     width: 69.5rem;
     /* margin-right: 1.8rem; */
-    margin-top: 1.6rem;
+    margin-top: 1.4rem;
     margin-left: 13rem;
 }
 .movie-play{
@@ -293,7 +293,7 @@
     align-items: center;
 }
 .ticketing{
-    margin-top: 1rem;
+    margin-top: 0.7rem;
 }
 .ticket{
     width: 100%;
@@ -324,7 +324,7 @@
     object-fit: fill;
     width: 23.5rem;
     height: 11rem;
-    margin-top: 1rem;
+    margin-top: 0.7rem;
     display: grid;
 }
 

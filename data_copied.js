@@ -13,11 +13,11 @@ if (secondPageMovieData) {
             document.getElementById('ldate').textContent = secondPageData[0].Ldate;
             document.getElementById('watch-movie').setAttribute('src', secondPageData[0].Image);
             document.getElementById('genre').textContent = secondPageData[0].fGenre;
-            document.title = "playing" + secondPageData[0].Name;
+            document.title.textContent = "stranger";
         }
     } catch (error) {
         console.error('JSON parsing error:', error);
     }
 }
-
+console.log(document.title)
 console.log('Second page script is running');

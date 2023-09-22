@@ -4,5 +4,24 @@
    "Ldate": "locationDate",
     "Image": "movieImage",
     "fGenre": "genre"
-}
+  }
 ]
+
+[
+    {
+        "imageUrls" : [
+            "png/john-wick.jpg"
+        ],
+        "Title" : "",
+        "imdb" : "",
+        "tomato" : "",
+        "summary" : ""
+
+    }
+]
+
+'png/john-wick.jpg',
+    'png/demon-slayer.png',
+    'png/fastx.jpg',
+    'png/spider-man.jpg',
+    'png/sololeveling.jpg'

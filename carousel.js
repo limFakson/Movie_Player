@@ -1,3 +1,9 @@
+const Title = document.getElementById('title');
+const imdb = document.getElementById('imdb');
+const tomato = document.getElementById('tomato');
+const summary = document.getElementById('summarized');
+
+//array for the image and preview details
 const imageUrls = [
     'png/john-wick.jpg',
     'png/demon-slayer.png',
@@ -7,10 +13,12 @@ const imageUrls = [
 ];
 
 const movieBanner = document.querySelector('.movie-banner');
-let currentImageIndex = 0; // Index of the current image in the array
 
+// Index of the current image in the array
+let currentImageIndex = 0;
+
+// Set the background image of .movie-banner
 function changeBackgroundImage() {
-    // Set the background image of .movie-banner
     movieBanner.style.backgroundImage = `url(${imageUrls[currentImageIndex]})`;
 
     // Remove the active class from all checkboxes
@@ -34,7 +42,7 @@ function changeBackgroundImage() {
 }
 
 // Call the changeBackgroundImage function at specified intervals (e.g., every 8 seconds)
-const intervalTime = 3000; // Change image every 8 seconds (adjust as needed)
+const intervalTime = 8000; // Change image every 8 seconds (adjust as needed)
 setInterval(changeBackgroundImage, intervalTime);
 
 // Add event listeners to checkboxes
