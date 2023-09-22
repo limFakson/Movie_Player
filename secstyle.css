@@ -156,7 +156,7 @@
 .movie-play img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     /* position: relative; */
 }
 .play-logo{
@@ -178,11 +178,10 @@
 .movie-content{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.3rem;
     justify-content: space-between;
 }
 .preview{
-    width: 46rem;
+    width: 44.8rem;
 }
 .movie-title{
     display: flex;
@@ -266,18 +265,19 @@
 }
 .nominations .i{
     display: grid;
-    width: 21.5rem;
+    width: 20rem;
 }
 .nominations i{
     justify-self: end;
 }
 .others{
     margin-top: 1rem;
+    display: grid;
 }
 .rating{
     display: flex;
-    margin-top: 0.3rem;
     gap: 0.8rem;
+    justify-content: flex-end;
 }
 .rating img{
     width: 1.6rem;
@@ -288,4 +288,56 @@
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
+}
+.ticketing{
+    margin-top: 1rem;
+}
+.ticket{
+    width: 100%;
+    height: 2.5rem;
+    margin: 0.3rem 0;
+    border-radius: 9px;
+    border: 1.4px solid var(--but-color);
+    font-weight: 600;
+    font-size: 0.97rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+.show{
+    background-color: var(--but-color);
+    color: var(--bocolor);
+}
+.options{
+    background-color: var(--secbut-color);
+    color: var(--pri-color);
+}
+.movie-pack{
+    background-image: url(png/Collection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 11px;
+    object-fit: fill;
+    width: 23.5rem;
+    height: 11rem;
+    margin-top: 1rem;
+    display: grid;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    gap: 0.5rem;
+    width: 23.5rem;
+    height: 1.5rem;
+    border-radius: 0 0 11px 11px;
+    background-color: #1118278a;
+    color: var(--bocolor);
+}
+.top img{
+    height: 1.2rem;
+    width: 1.8rem;
 }

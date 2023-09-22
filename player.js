@@ -14,6 +14,9 @@ const labelFive = document.getElementById('label-five');
 
 //Movie card
 const Moviecard = document.querySelector('.movie-card');
+
+//playlet menu
+const Home = document.getElementById('home');
 // Movie banner carousel changer i.e checkbox
 
 //label for checked checkbox
@@ -64,4 +67,7 @@ window.addEventListener('load', ()=>{
 
 Moviecard.addEventListener('click', ()=>{
     window.location.href = "playlet.html"
+});
+Home.addEventListener('click', ()=>{
+    window.location.href = "index.html"
 });
