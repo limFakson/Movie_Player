@@ -20,12 +20,14 @@ header{
     height: 37rem;
 }
 .movie-banner{
-    background-image: url(png/john-wick.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url(png/john-wick.jpg);
     width: 100%;
     height: 100%;
+    transition: .2s backgroung-image ease-in-out;
 }
+
 nav{
     display: flex;
     width: 100%;

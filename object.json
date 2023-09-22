@@ -1,0 +1,8 @@
+[
+    {
+    "Name": "movieName",
+   "Ldate": "locationDate",
+    "Image": "movieImage",
+    "fGenre": "genre"
+}
+]

@@ -59,3 +59,29 @@ window.addEventListener('load', ()=>{
     checkboxFour.checked = false;
     checkboxFive.checked = false;
 });
+
+const imageUrls = [
+    'png/john-wick.jpg',
+    'png/fastx.jpg',
+    'png/jagunjagun.jpg',
+    'png/sololeveling.jpg'
+];
+
+const movieBanner = document.querySelector('.movie-banner');
+let currentImageIndex = 0; // Index of the current image in the array
+
+function changeBackgroundImage() {
+    // Set the background image of .movie-banner
+    movieBanner.style.backgroundImage = `url(${imageUrls[currentImageIndex]})`;
+
+    // Increment the image index or loop back to the first image
+    currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+}
+
+// Call the changeBackgroundImage function at specified intervals (e.g., every 5 seconds)
+const intervalTime = 8000; // Change image every 5 seconds (adjust as needed)
+setInterval(changeBackgroundImage, intervalTime);
+
+// Call the function once to set the initial background image
+changeBackgroundImage();
+
