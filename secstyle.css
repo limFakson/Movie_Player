@@ -143,26 +143,37 @@
     color: var(--sec-color);
 }
 .main-page{
-    width: 70.3rem;
+    width: 69.5rem;
     /* margin-right: 1.8rem; */
-    margin-top: 1.76rem;
-    margin-left: 12.7rem;
+    margin-top: 1.6rem;
+    margin-left: 13rem;
 }
 .movie-play{
     width:100%;
-    height: 18rem;
-    background-image: url(png/Playing.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
+    height: 20rem;
+    display: flex;
 }
-
+.movie-play img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
 .play-logo{
     justify-content: center;
-    justify-self: center;
     align-self: center;
-    background-color: var(--grey);
-    width: 10rem;
+    background-color: #d1d5db66;
+    position: absolute;
+    right: 34.8rem;
+    width: 4rem;
+    display: grid;
+    border-radius: 50%;
+
+}
+.play-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .movie-content{
     display: flex;
