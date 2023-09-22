@@ -20,12 +20,14 @@ header{
     height: 37rem;
 }
 .movie-banner{
+    background-color: #111827;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(png/john-wick.jpg);
+    background-blend-mode: normal;
+    image-rendering: pixelated;
     width: 100%;
     height: 100%;
-    transition: .2s backgroung-image ease-in-out;
+    transition: 1s background-image linear;
 }
 
 nav{
@@ -182,6 +184,13 @@ input:active{
     font-size: 1.1rem;
     font-weight: 650;
 }
+
+.active-checkbox {
+    height: 1px;
+    width: 5px;
+    border: 2px solid #fff;
+}
+
 .nnumber-change label{
     color: var(--sec-color);
     font-size: 0.9rem;
