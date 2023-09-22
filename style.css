@@ -188,7 +188,7 @@ input:active{
 .active-checkbox {
     height: 1px;
     width: 5px;
-    boackground-image: url(png/Rectangle\ 1.png);
+    background-image: url(png/Rectangle\ 1.png);
 }
 
 .nnumber-change label{
