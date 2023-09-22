@@ -52,6 +52,7 @@
     gap: 1rem;
     padding-left: 2.2rem;
     cursor: pointer;
+    transition: .4s background-color ease-in-out;
 }
 .menu-item:hover{
     background-color: var(--secbut-color);
@@ -127,6 +128,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    cursor: pointer;
 }
 .bar-icon-img{
     width: 1rem;

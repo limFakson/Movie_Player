@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
 }
+button{
+    cursor: pointer;
+}
 body{
     background-color: var(--bocolor);
 }
@@ -211,17 +214,18 @@ section{
 .movie-collection{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     gap: 2rem;
     margin: 3rem 0;
 }
 .movie-card{
-    width: 17.6rem;
+    width: 17.2rem;
     height: 39rem;
     cursor: pointer;
 }
 .movie{
-    width: 17.5rem;
+    width: 17.1rem;
     height: 26rem;
     margin-bottom: 0.7rem;
 }
