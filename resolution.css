@@ -3,3 +3,32 @@
         max-width: calc(40%- 0.6rem);
     }
 }
+
+@media (min-width: 768px) {
+    header{
+        height: 27rem;
+    }
+    .movie-banner{
+        background-size: contain;
+    }
+    nav{
+        padding: 1rem 2rem;
+    }
+    .logo{
+        margin-right: 1rem;
+    }
+    .search-box{
+        width: 23rem;
+        margin-right: 2rem;
+        height: 2rem;
+    }
+    .movie-banner-collection{
+        padding: 3.4rem 1rem 4rem 0;
+    }
+    .movie-preview h1{
+        font-size: 2rem;
+    }
+    section{
+        margin: 2rem;
+    }
+}

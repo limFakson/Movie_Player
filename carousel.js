@@ -1,4 +1,5 @@
-const Title = document.getElementById('title');
+// window.onload - function () {
+    const Title = document.getElementById('title');
 const imdb = document.getElementById('imdb');
 const tomato = document.getElementById('tomato');
 const summary = document.getElementById('summarized');
@@ -58,3 +59,5 @@ checkboxes.forEach((checkbox, index) => {
 
 // Call the function once to set the initial background image
 changeBackgroundImage();
+
+// };
