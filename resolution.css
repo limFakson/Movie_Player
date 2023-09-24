@@ -9,9 +9,9 @@
         width: auto;
     }
     .side-bar{
-        display: none;
+        /* display: none; */
         width:10rem;
-        transform: scaleX(-10rem);
+        transform: translateX(-100%);
     }
     .main-page{
         width: 100%;
