@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+    --bocolor : #fff;
+    --grey :#D1D5DB;
+    --pri-color: #111827;
+    --sec-color: #9CA3AF;
+    --but-color: #be123c;
+    --secbut-color: rgba(190, 18, 60, 0.2);
+    font-family: DM sans;
+    margin: 0;
+    padding: 0;
+}
+
 @media (max-width: 1200px) {
     .movie-card{
         max-width: calc(40%- 0.6rem);
@@ -11,12 +24,32 @@
     .side-bar{
         /* display: none; */
         width:10rem;
-        transform: translateX(-100%);
+        /* transform: translateX(-100%); */
+        z-index: 1;
+        padding-top: 0rem;
+    }
+    .seclogo{
+        margin-top: 0;
+    }
+    .child{
+       margin-left: 9rem;
+    }
+    .scroll-in{
+        display: block;
+        width: 11.5rem;
+        height: 2rem;
+        box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+        border: none;
+        border-radius: 15px;
+        background-color: var(--bocolor);
+        margin-top: 0;
+        margin-bottom: 2rem;
+        padding-left: 9rem;
     }
     .main-page{
         width: 100%;
         margin-left: 0;
-        margin-top: 0.8rem;
+        margin-top: 1.5rem;
         overflow: hidden;
     }
 }
