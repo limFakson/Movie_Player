@@ -3,6 +3,23 @@
         max-width: calc(40%- 0.6rem);
     }
 }
+@media (max-width: 699px){
+    body{
+        margin: 0.7rem;
+        width: auto;
+    }
+    .side-bar{
+        display: none;
+        width:10rem;
+        transform: scaleX(-10rem);
+    }
+    .main-page{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0.8rem;
+        overflow: hidden;
+    }
+}
 
 @media (max-width: 768px) {
     header{
