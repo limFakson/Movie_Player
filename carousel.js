@@ -7,7 +7,7 @@ const summary = document.getElementById('summarized');
 //array for the image and preview details
 const imageUrls = [
     'png/john-wick.jpg',
-    'png/demon-slayer.png',
+    'png/demon-slayer.jpg',
     'png/fastx.jpg',
     'png/spider-man.jpg',
     'png/sololeveling.jpg'
