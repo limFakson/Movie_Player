@@ -16,26 +16,57 @@
     .side-bar{
         /* display: none; */
         width:10rem;
-        /* transform: translateX(-100%); */
+        transform: translateX(-100%);
         z-index: 1;
-        padding-top: 0rem;
+    }
+    .tv-icon{
+    width: 1.8rem;
+    height: 1.8rem;
+    }
+    #logotext{
+        margin-left: 4px;
+    }
+    #logotext h2{
+    font-size: 1rem;
     }
     .seclogo{
         margin-top: 0;
     }
 
     .scroll-in{
-        display: block;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         width: 11.5rem;
         height: 2rem;
         box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
-        border: none;
+        border: 2px solid #be123c;
         border-radius: 15px;
         background-color: var(--bocolor);
         margin-top: 0;
         margin-bottom: 2rem;
         padding-left: 9rem;
+        padding-right: 0.6rem;
         z-index: 1;
+        position: fixed;
+        cursor: pointer;
+        transform: translateX(-92%);
+    }
+    .scroll-in .left{
+        display: none;
+    }
+    .scroll-in input[type="checkbox"]{
+        display: absolute;
+        /* appearance: none; */
+    }
+    .scroll-in input:checked~.right{
+        display: none;
+    }
+    .scroll-in input:checked~.left{
+        display: block;
+    }
+    .scroll-in input:checked ~ .slide-bar{
+        transform: translateX(0);
     }
     .main-page{
         width: 100%;

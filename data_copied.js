@@ -21,3 +21,13 @@ if (secondPageMovieData) {
 }
 console.log(document.title)
 console.log('Second page script is running');
+
+//slide in menu
+const slide = document.getElementById('slide');
+const checkbox = document.getElementById('in-box');
+
+//function call
+slide.addEventListener('click', ()=>{
+    // Toggle the checkbox state by setting its 'checked' property
+    checkbox.checked = !checkbox.checked;
+})
