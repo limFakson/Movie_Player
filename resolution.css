@@ -65,7 +65,7 @@
     .scroll-in input:checked~.left{
         display: block;
     }
-    .scroll-in input:checked ~ .slide-bar{
+    .scroll-in input:checked~.side-bar{
         transform: translateX(0);
     }
     .main-page{
