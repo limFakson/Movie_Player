@@ -1,8 +1,8 @@
 <b><h1 style="text-align: center;">MovieBox</h1></b>
 
-##MovieBox is an ongoing project aimed at creating a movie streaming website. Although it can't play movies at the moment, it serves as a platform to display movie details and images in a visually appealing way.
+MovieBox is an ongoing project aimed at creating a movie streaming website. Although it can't play movies at the moment, it serves as a platform to display movie details and images in a visually appealing way.
 
-##Introduction
+<b><h1 style="text-align: center;">Introduction</h1></b>
 MovieBox is a web application designed to showcase movie details and images. While it's a work in progress, it currently offers the functionality to click on a movie card, which then displays the movie's picture and content on a second page. This is achieved by transferring the movie details in JSON format to the second page to replace the default content.
 
 ## Tech used
@@ -16,21 +16,17 @@ Features
 * Click on a movie card to view the movie's picture and content on a separate page.
 
 ##Getting Started
-##Prerequisites
+Prerequisites
 
   Web browser
   Check the through the link: [click here](https://moviebox-player.netlify.app/).
 
-##Usage
+Usage
 
-    Open the MovieBox website in your web browser.
+ Open the MovieBox website in your web browser.
+ Browse the collection of movie cards.
+ Click on a movie card to view its picture and content on a separate page.
 
-    Browse the collection of movie cards.
-
-    Click on a movie card to view its picture and content on a separate page.
-
-
-##Contributing
 
  ## :memo:Contributions to MovieBox are welcome! If you'd like to contribute, please follow these steps:
  * Go through the repository completely!
@@ -41,5 +37,14 @@ Features
  * Add Screenshots to help us know what this Script is all about
 
 
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+
+    The MovieBox project is inspired by a passion for movies and web development.
+
+    
  #### Give a ⭐ it's free 😊
 ## :tada: All the best for your amazing contributions
