@@ -1,6 +1,7 @@
 @media (max-width: 1200px) {
     .movie-card{
         max-width: calc(40%- 0.6rem);
+        flex-grow: 1;
     }
 }
 @media (min-width: 715px) {
