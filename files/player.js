@@ -38,7 +38,7 @@ movieCards.forEach(card => {
 // Handle the "goHome" button
 const goHome = document.getElementById('home');
 goHome.addEventListener('click', () => {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 });
 
 console.log('isConnected');
