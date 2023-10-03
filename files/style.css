@@ -139,6 +139,7 @@ input:active{
     width: 100%;
     color: var(--grey);
     font-weight: 500;
+    font-size: 1rem;
 }
 .bookmark span img{
     margin-right: 0.5rem;

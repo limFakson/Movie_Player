@@ -11,7 +11,6 @@
 }
 @media (max-width: 714px){
     body{
-        margin: 0.7rem;
         width: auto;
     }
     .side-bar{
@@ -79,30 +78,34 @@
 
 @media (max-width: 768px) {
     header{
-        height: 20rem;
+        height: 22rem;
     }
     .movie-banner{
         background-size: cover;
     }
     nav{
-        padding: 1rem 2rem;
+        padding: 1rem;
     }
     .logo{
-        margin-right: 1rem;
+        margin-right: 0.8rem;
+    }
+    #logotext h2{
+        font-size: 1rem;
     }
     .search-box{
-        width: 23rem;
-        margin-right: 2rem;
-        height: 2rem;
+        width: 15rem;
+        margin-right: 0rem;
+        height: 1.8rem;
     }
     .menu{
     display: none;
     }
     .movie-banner-collection{
-        padding: 3.4rem 1rem 4rem 0;
+        padding: 1rem 1rem 3rem 0;
     }
     .movie-preview h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
     }
     section{
         margin: 2rem;

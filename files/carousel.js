@@ -6,11 +6,11 @@ const summary = document.getElementById('summarized');
 
 //array for the image and preview details
 const imageUrls = [
-    'png/john-wick.jpg',
-    'png/demon-slayer.jpg',
-    'png/fastx.jpg',
-    'png/spider-man.jpg',
-    'png/sololeveling.jpg'
+    'files/png/john-wick.jpg',
+    'files/png/demon-slayer.jpg',
+    'files/png/fastx.jpg',
+    'files/png/spider-man.jpg',
+    'files/png/sololeveling.jpg'
 ];
 
 const movieBanner = document.querySelector('.movie-banner');

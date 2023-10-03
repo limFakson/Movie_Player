@@ -25,7 +25,7 @@ function handleClick(event) {
     movieData.push(movieObject);
 
     // Redirect to another page with movieData as a query parameter
-    window.location.href = `./files/playlet.html?movieData=${JSON.stringify(movieData)}`;
+    window.location.href = `./playlet.html?movieData=${JSON.stringify(movieData)}`;
 }
 
 console.log('movieData sent:', JSON.stringify(movieData));
