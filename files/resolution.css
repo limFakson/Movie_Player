@@ -46,8 +46,12 @@
         overflow: hidden;
     }
     .movie-details{
-        display: block;
+        display: flex;
     }
+    /* .movie-title{
+        display: block;
+        text-align: left;
+    } */
 }
 
 @media (max-width: 768px) {
@@ -83,5 +87,17 @@
     }
     section{
         margin: 2rem;
+    }
+    .nomination{
+        width: auto;
+    }
+    .nominations .i{
+        /* display: block; */
+    }
+    .under{
+        display: none;
+    }
+    .ontop{
+        display: flex;
     }
 }

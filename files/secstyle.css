@@ -190,6 +190,8 @@
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
 }
 .movie-details{
     display: flex;
@@ -281,6 +283,9 @@
     display: flex;
     gap: 0.8rem;
     justify-content: flex-end;
+}
+.ontop{
+    display: none;
 }
 .rating img{
     width: 1.6rem;
