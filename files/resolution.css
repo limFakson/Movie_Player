@@ -13,6 +13,9 @@
     body{
         width: auto;
     }
+    .play-section{
+        padding: 1rem;
+    }
     .side-bar{
         /* display: none; */
         width:10rem;
@@ -32,47 +35,14 @@
     .seclogo{
         margin-top: 0;
     }
-
-    .scroll-in{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 11.5rem;
-        height: 2rem;
-        box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
-        border: 2px solid #be123c;
-        border-radius: 15px;
-        background-color: var(--bocolor);
-        margin-top: 0;
-        margin-bottom: 2rem;
-        padding-left: 9rem;
-        padding-right: 0.6rem;
-        z-index: 1;
-        position: fixed;
-        cursor: pointer;
-        transform: translateX(-92%);
-    }
-    .scroll-in .left{
-        display: none;
-    }
-    .scroll-in input[type="checkbox"]{
-        display: absolute;
-        /* appearance: none; */
-    }
-    .scroll-in input:checked~.right{
-        display: none;
-    }
-    .scroll-in input:checked~.left{
-        display: block;
-    }
-    .scroll-in input:checked~.side-bar{
-        transform: translateX(0);
-    }
     .main-page{
         width: 100%;
         margin-left: 0;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
         overflow: hidden;
+    }
+    .movie-details{
+        display: block;
     }
 }
 
