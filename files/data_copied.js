@@ -52,7 +52,11 @@ function toggleMenu() {
   });
 
   function handleSwipe() {
-    const swipeThreshold = 60; // Adjust this value as needed
+    const screenWidth = window.innerWidth;
+const swipeThresholdPercentage = 10; // 10% of the screen width
+
+// Calculate the swipe threshold in pixels
+const swipeThreshold = (screenWidth * swipeThresholdPercentage) / 100;
 
     if (touchStartX - touchEndX > swipeThreshold) {
       // Swipe to the left (closing menu)
