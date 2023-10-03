@@ -22,12 +22,7 @@ if (secondPageMovieData) {
 console.log(document.title)
 console.log('Second page script is running');
 
-//function call
-slide.addEventListener('click', ()=>{
-    // Toggle the checkbox state by setting its 'checked' property
-    checkbox.checked = !checkbox.checked;
-});
-
+console.log('done');
 // Function to toggle the menu
 function toggleMenu() {
     const menu = document.getElementById('menu');
@@ -58,3 +53,5 @@ function toggleMenu() {
       toggleMenu();
     }
   }
+
+  console.log('done');

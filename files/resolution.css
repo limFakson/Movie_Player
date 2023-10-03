@@ -19,6 +19,7 @@
     .side-bar{
         /* display: none; */
         width:10rem;
+        transform: translatex(-100%);
         z-index: 1;
     }
     .tv-icon{
