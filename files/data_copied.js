@@ -43,7 +43,7 @@ function toggleMenu() {
   });
 
   function handleSwipe() {
-    const swipeThreshold = 50; // Adjust this value as needed
+    const swipeThreshold = 60; // Adjust this value as needed
 
     if (touchStartX - touchEndX > swipeThreshold) {
       // Swipe to the left (closing menu)
