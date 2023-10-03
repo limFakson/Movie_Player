@@ -19,8 +19,12 @@
     .side-bar{
         /* display: none; */
         width:10rem;
-        transform: translatex(-100%);
+        transform: translateX(-100%);
         z-index: 1;
+        transition: transform 0.3s ease;
+    }
+    .slide-bar.menu-open {
+        transform: translateX(0%);
     }
     .tv-icon{
     width: 1.8rem;
