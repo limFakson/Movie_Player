@@ -21,7 +21,7 @@
         width:10rem;
         transform: translateX(-100%);
         z-index: 1;
-        transition: transform 0.3s ease;
+        transition: transform 0.4s ease;
     }
     .slide-bar.menu-open {
         transform: translateX(0%);
@@ -90,9 +90,6 @@
     }
     .nomination{
         width: auto;
-    }
-    .nominations .i{
-        /* display: block; */
     }
     .under{
         display: none;

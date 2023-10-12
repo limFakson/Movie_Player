@@ -125,6 +125,7 @@ input:active{
     line-height: 2.4rem;
     margin: 1rem 0;
     font-size: 2.6rem;
+    transition: ease-in-out .9s;
 }
 .bookmark{
   display: flex;
@@ -148,6 +149,7 @@ input:active{
     margin-top: 0.8rem;
     font-size: 13px;
     margin-bottom: 1.5rem;
+    transition: ease-in-out .9s;
 }
 .play-trailer{
     display: flex;
