@@ -48,15 +48,13 @@
     .movie-details{
         display: flex;
     }
-    .movie-title{
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        margin-right: 2rem;
-    }
 }
 
 @media (max-width: 768px) {
+    body{
+        margin: auto;
+        width: 100vw;
+    }
     header{
         height: 22rem;
     }
@@ -98,5 +96,18 @@
     }
     .ontop{
         display: flex;
+    }
+}
+@media (max-width: 560px){
+    .movie-title{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        margin-right: 2rem;
+        width: auto;
+    }
+    movie-summary h3{
+        font-size: 0.7rem;
+        word-wrap: break-word;
     }
 }
