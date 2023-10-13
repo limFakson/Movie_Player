@@ -21,17 +21,18 @@ const imageUrls = [
     {
         image : 'files/png/fastx.jpg',
         Title : 'Fast & Furious 4: fastX',
-        summary :'The last episode of fast & furious where paul walker came back to life' + 'and they have to race to death'
+        summary :'The last episode of fast & furious where paul walker came back to life' + ' ' + 'and they have to race to death'
     }, 
     {
         image : 'files/png/spider-man.jpg',
         Title : 'Spider-man 2: Across the spider verse',
-        summary :'Miles was greater power and now he has a great reponsibility to protect the universe from' + 'his moortal enemy: HImself' + 'After been chaseed by the league of spidermans'
+        summary :'Miles was greater power and now he has a great reponsibility to protect the universe from' + ' ' + 'his moortal enemy: HImself' + ' ' + 'After been chaseed by the league of spider-mans'
     },
     {
         image : 'files/png/sololeveling.jpg',
         Title : 'Solo-leveling: The Rise',
-        summary :'Sung jin woo, the world weakest hunter' + 'meet fortune in the dungeon, where he has to lay his life to get it' + 'now becoming the world greatest hunter.'
+        summary :'Sung jin woo, the world weakest hunter' + ' ' + 'meet fortune in the dungeon, where he has to lay his life to get it' + 
+        ' ' + 'now becoming the world greatest hunter.'
     }
 ];
 

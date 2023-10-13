@@ -48,10 +48,12 @@
     .movie-details{
         display: flex;
     }
-    /* .movie-title{
-        display: block;
-        text-align: left;
-    } */
+    .movie-title{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        margin-right: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
