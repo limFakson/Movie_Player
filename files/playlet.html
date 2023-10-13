@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>strange</title>
+    <title></title>
 
     <!--External Links -->
-    <link rel="stylesheet" href="files/style.css">
-    <link rel="stylesheet" href="files/secstyle.css">
-    <link rel="stylesheet" href="files/resolution.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="secstyle.css">
+    <link rel="stylesheet" href="resolution.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="files/png/tv.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./png/tv.png" type="image/x-icon">
 </head>
 <body>
     <!--When a movie card is clicked it appers here-->
@@ -24,7 +24,7 @@
                 <div class="seclogo">    
                     <div class="logo">
                         <div class="tv-icon">
-                           <img src="files/png/tv.png" alt="logo">
+                           <img src="./png/tv.png" alt="logo">
                         </div>
                         <span id="logotext">
                            <h2 id="logo">MovieBox</h2>
@@ -34,25 +34,25 @@
                 <div class="side-menu">
                     <span class="menu-item" id="home">
                         <span class="menu-item-img">
-                            <img src="files/png/Home.png" alt="">
+                            <img src="./png/Home.png" alt="">
                         </span>
                         <p>Home</p>
                     </span>
                     <span class="menu-item active" id="active">
                         <span class="menu-item-img">
-                            <img src="files/png/Movie Projector.png" alt="">
+                            <img src="./png/Movie Projector.png" alt="">
                         </span>
                         <p>Movies</p>
                     </span>
                     <span class="menu-item" id="shows">
                         <span class="menu-item-img">
-                            <img src="files/png/TV Show.png" alt="">
+                            <img src="./png/TV Show.png" alt="">
                         </span>
                         <p>TV Series</p>
                     </span>
                     <span class="menu-item" id="calender">
                         <span class="menu-item-img">
-                            <img src="files/png/Calendar.png" alt="">
+                            <img src="./png/Calendar.png" alt="">
                         </span>
                         <p>Upcoming</p>
                     </span>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="logout">
                         <span class="bar-icon-img">
-                            <img src="files/png/Logout.png" alt="">
+                            <img src="./png/Logout.png" alt="">
                         </span>
                         <h3>Log out</h3>
                     </div>
@@ -75,10 +75,9 @@
             </div>
             <div class="main-page">
                 <div class="movie-play">
-                    <iframe id="watch-movie" src="files/png/Playing.png" src="files/png/Sidebar Navigation Menu With Animated Toggle Bar Using HTML And CSS CSS Side Navbar Menu.mp4" frameborder="0"></iframe>
-                    
+                    <img id="watch-movie" src="png/Playing.png" alt="">
                     <span class="play-logo">
-                        <img src="files/png/Play.png" alt="">
+                        <img src="./png/Play.png" alt="">
                     </span>
                 </div>
                 <div class="movie-content">
@@ -89,13 +88,10 @@
                                 <p id="ldate">• 2022 • PG-13 • 2h10m</p>
                             </span>
                             <span class="genre">
-                                <p>Action</p>
-                            </span>
-                            <span class="genre">
-                                <p>Action</p>
+                                <p id="genre">Action</p>
                             </span>
                             <div class="rating ontop">
-                                <img src="files/png/Star.png" alt="">
+                                <img src="./png/Star.png" alt="">
                                 <span class="rate">8.5 <h3>| 350k</h3></span>
                             </div>
                         </div>
@@ -119,16 +115,16 @@
                     </div>
                     <div class="others">
                         <div class="rating under">
-                            <img src="files/png/Star.png" alt="">
+                            <img src="./png/Star.png" alt="">
                             <span class="rate">8.5 <h3>| 350k</h3></span>
                         </div>
                         <div class="ticketing">
-                            <button class="show ticket"><img src="files/png/Two Tickets.png" alt="">See Showtimes</button>
-                            <button class="options ticket"><img src="files/png/List.png" alt="">More Watch Options</button>
+                            <button class="show ticket"><img src="./png/Two Tickets.png" alt="">See Showtimes</button>
+                            <button class="options ticket"><img src="./png/List.png" alt="">More Watch Options</button>
                         </div>
                         <div class="movie-pack">
                             <span class="top">
-                                <img src="files/png/List.png" alt="">
+                                <img src="./png/List.png" alt="">
                                 <p>The Best Movies and Shows in September</p>
                             </span>
                         </div>
@@ -139,7 +135,7 @@
     </div>
 
     <!--Javascript Externel Links-->
-    <script src="files/player.js"></script>
-    <script src="files/data_copied.js"></script>
+    <script src="player.js"></script>
+    <script src="data_copied.js"></script>
 </body>
 </html>

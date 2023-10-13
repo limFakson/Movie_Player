@@ -155,7 +155,7 @@
     height: 20rem;
     display: flex;
 }
-.movie-play iframe{
+.movie-play img{
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -216,9 +216,10 @@
     border: 1px solid var(--secbut-color);
     border-radius: 10px;
     height: 1.45rem;
-    width: 5rem;
+    width: 13rem;
     text-align: center;
-    margin-top: 1.5rem
+    margin-top: 1.5rem;
+    padding-left: 0.2rem;
 }
 .about-movie{
     margin-top: 1.25rem;

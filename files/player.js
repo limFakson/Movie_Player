@@ -1,8 +1,8 @@
+const data = JSON.parse(localStorage.getItem('users')) || [];
+
 // Select all movie cards
 const movieCards = document.querySelectorAll('.movie-card');
 
-// Define an array to store movie data
-const movieData = [];
 
 // Define event handler for clicking on a movie card
 function handleClick(event) {
@@ -22,13 +22,16 @@ function handleClick(event) {
     };
 
     // Add the movie data to the movieData array
-    movieData.push(movieObject);
+    data.push(movieObject);
+
+    //save the data in localstorage
+    localStorage.setItem('movieObject', JSON.stringify(data));
 
     // Redirect to another page with movieData as a query parameter
-    window.location.href = `./playlet.html?movieData=${JSON.stringify(movieData)}`;
+    window.location.href = `./files/playlet.html`;
 }
 
-console.log('movieData sent:', JSON.stringify(movieData));
+console.log('movieData sent:', JSON.stringify(data));
 
 // Add click event listeners to movie cards
 movieCards.forEach(card => {
