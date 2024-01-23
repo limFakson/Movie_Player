@@ -227,18 +227,18 @@ section{
 .movie-collection{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     /* gap: 2rem; */
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .movie-card{
     flex: 1;
     max-width: calc(17.2rem - 0.6rem);
     width: calc(110.2rem - 0.6rem);
-    height: 39rem;
+    height: 37rem;
     cursor: pointer;
-    margin: 1rem;
+    margin: 0.9rem;
 }
 .movie{
     width: 17.1rem;
@@ -302,7 +302,10 @@ section{
 }
 .prefare{
     display: flex;
-    gap: 1.235rem;
+    gap: 1.3rem;
+}
+.prefare div{
+    width: 140px;
 }
 .prefare span h3{
     font-size: 1rem;
@@ -312,4 +315,7 @@ section{
     font-size: 1rem;
     font-weight: 500;
     color: var(--pri-color);
+}
+.footer{
+    margin-top: 4rem;
 }
