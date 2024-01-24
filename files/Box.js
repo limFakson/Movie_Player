@@ -42,7 +42,7 @@ goHome.addEventListener('click', () => {
 
 // Handle the "goHome" button
 const goUpcoming = document.getElementById('upcoming');
-goHome.addEventListener('click', () => {
+goUpcoming.addEventListener('click', () => {
     window.location.href = "./upcoming.html";
 });
 
