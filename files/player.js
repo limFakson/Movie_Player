@@ -1,3 +1,5 @@
+//Data here wwas gotten from index and saved in localhost then pasted on playlet page
+
 const data = JSON.parse(localStorage.getItem('users')) || [];
 
 // Select all movie cards
@@ -33,15 +35,26 @@ function handleClick(event) {
 
 console.log('movieData sent:', JSON.stringify(data));
 
+ 
+
 // Add click event listeners to movie cards
 movieCards.forEach(card => {
-    card.addEventListener('click', handleClick);
-});
+    card.addEventListener('click', function(event) {
+        if (event.target.classList.contains('heart_icon')) {
+            // Like click handler in the index page
+            function like() {
+                const heart = event.target;
+                heart.style.backgroundColor = "#be123c";
+                console.log('liked');
+            }
 
-// Handle the "goHome" button
-const goHome = document.getElementById('home');
-goHome.addEventListener('click', () => {
-    window.location.href = "../index.html";
+            like();
+        } else {
+            handleClick(event);
+        }
+    });
 });
 
 console.log('isConnected');
+
+//Data Saved sucessfully

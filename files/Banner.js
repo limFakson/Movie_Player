@@ -1,5 +1,7 @@
+//Homepage banner image swap function
+
 // window.onload - function () {
-    const Title = document.getElementById('title');
+const Title = document.getElementById('title');
 const imdb = document.getElementById('imdb');
 const tomato = document.getElementById('tomato');
 const summary = document.getElementById('summarized');

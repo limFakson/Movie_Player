@@ -244,8 +244,21 @@ section{
     width: 17.1rem;
     height: 26rem;
     margin-bottom: 0.7rem;
+    position: relative;
+    display: grid;
 }
-.movie img{
+.heart_icon{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    justify-self: end;
+    margin: 12px 10px 0 0;
+    padding: 1px;
+    background-color: var(--sec-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Mimg{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -297,19 +310,23 @@ section{
 }
 .icons i{
     padding: 0 0.753rem;
+    margin: 0 0.5rem;
     font-size: 1.2rem;
     color: var(--pri-color);
 }
-.prefare{
+.terms{
     display: flex;
-    gap: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.prefare div{
-    width: 140px;
+.terms span{
+    width: 220px;
 }
-.prefare span h3{
-    font-size: 1rem;
+.terms h3{
+    font-size: 1.2em;
+    text-align: center;
     color: var(--pri-color);
+    margin: 1rem;
 }
 .credits p{
     font-size: 1rem;
